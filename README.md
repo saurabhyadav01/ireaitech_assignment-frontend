@@ -1,6 +1,8 @@
 
+##backend repo link -https://github.com/saurabhyadav01/Iraitech-assignment-backend
 
 ## Run Project : 
+first start backend then run project
 npm run start
 
  
