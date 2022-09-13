@@ -32,7 +32,7 @@ console.log(id)
   const EditHandler = () => {
    
     console.log(token.token)
-      axios.patch(`https://web-elight.herokuapp.com/users/${id}` , data,{ headers: {"Authorization" : `Bearer ${token.token}`}}).then((res)=>{
+      axios.patch(`https://iraitech-assignment-db.herokuapp.com/users/${id}` , data,{ headers: {"Authorization" : `Bearer ${token.token}`}}).then((res)=>{
         console.log(res.data)
         
         toast.success("User Updated!!",{position:"top-center"})
