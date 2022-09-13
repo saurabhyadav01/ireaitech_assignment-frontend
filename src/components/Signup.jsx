@@ -28,7 +28,7 @@ export const SignUp = () => {
   const RegisterHandler = () => {
     console.log("data",data)
     
-      axios.post("http://localhost:5000/register" , data).then((res)=>{
+      axios.post("https://web-elight.herokuapp.com/register" , data).then((res)=>{
         console.log(res.data)
         
         toast.success("Registered Successfully !!",{position:"top-center"})
