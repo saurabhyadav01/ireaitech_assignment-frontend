@@ -35,7 +35,7 @@ export const SignIn = () => {
 
   const loginHandler = () => {
      console.log(data)
-        axios.post("https://web-elight.herokuapp.com/login" , data).then((res)=>{
+        axios.post("https://iraitech-assignment-db.herokuapp.com/login" , data).then((res)=>{
         console.log(res.data)
        alert("login In Successfully")
         sessionStorage.setItem("user",JSON.stringify(res.data))
