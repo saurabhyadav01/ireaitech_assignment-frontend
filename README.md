@@ -1,5 +1,4 @@
 
-##A simple admin dashboard where admin can see all the products and update it from there.
 
 ## Run Project : 
 npm run start
