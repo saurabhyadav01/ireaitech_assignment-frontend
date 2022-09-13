@@ -51,7 +51,7 @@ console.log(id)
   
   function profileData()
   {
-    axios.get(`http://localhost:5000/users/${id}`).then((res)=>
+    axios.get(`https://iraitech-assignment-db.herokuapp.com/users/${id}`).then((res)=>
     {
       let data={
         firstname: res.data.firstname,
